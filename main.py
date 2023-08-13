@@ -15,9 +15,14 @@ try:
     print("#" * 20)
 
     try:
-        # cursor = connection.cursor()
-
+        # select all data from table
         with connection.cursor() as cursor:
+            select_all_rows = "SELECT * FROM actor"
+            cursor.execute(select_all_rows)
+            rows = cursor.fetchall()
+            for row in rows:
+                print(row)
+            print("#" * 20)
 
     finally:
         connection.close()

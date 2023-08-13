@@ -1,4 +1,4 @@
-host = ""
-user = ""
-password = ""
-db_name = ""
+host = "localhost"
+user = "zurual"
+password = "overlord"
+db_name = "sakila"
