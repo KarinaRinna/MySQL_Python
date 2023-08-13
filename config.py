@@ -1,4 +1,4 @@
 host = "localhost"
-user = "zurual"
-password = "overlord"
+user = "***"
+password = "***"
 db_name = "sakila"
